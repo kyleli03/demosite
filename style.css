@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+.full {
+	position:absolute;
+}
+
+.dogA {
+  background-image: url("dogA.png");
+  position: absolute;
+  left: 279px;
+  top: 439px;
+  width: 548px;
+  height: 499px;
+  z-index: 5;
+}
+
+.catA {
+  background-image: url("catA.png");
+  position: absolute;
+  left: 930px;
+  top: 490px;
+  width: 285px;
+  height: 227px;
+  z-index: 3;
+	opacity: 0;
+	transition: opacity 3s, top 15s;
+}
+.catA:hover{
+	opacity:1;
+	top: -1000px;
+}

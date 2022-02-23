@@ -1,0 +1,39 @@
+body
+{
+	background-image: url("images/carolinapic.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+a:hover {color: red}
+a:link {color: greenyellow}
+
+
+pre{
+	text-align: center;
+	font-weight: bolder;
+}
+
+h1
+{
+	color: red;
+	
+}
+
+.message
+{
+	border: solid 5px red;
+	border-radius: 15px;
+	margin: 10px 400px 10px 350px;
+	color: blue;
+	background-color: yellow;
+}
+
+.images
+{
+	text-align: center;
+	border: solid 10px red;
+	margin: 10px 400px;
+	border-radius: 20px;
+}
